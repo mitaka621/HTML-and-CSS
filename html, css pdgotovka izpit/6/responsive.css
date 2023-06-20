@@ -1,0 +1,60 @@
+@media (width<=600px)
+{
+    body, main{
+        width: 100vw;
+    }
+    .left-to-right:first-child{
+       background-size: cover;
+       width: 800px;
+    }
+    main .left-to-right article
+    {
+        border-radius: 100px;
+        margin: 0 auto;
+        padding-top: 7em;
+    }
+    main .left-to-right article p
+    {
+        font-size: 1.3em;
+    }
+    main .left-to-right article header p
+    {
+        font-size: 1.7em;
+    }
+    main .left-to-right article button{
+        display: none;
+    }
+    main section:nth-child(2), main section:nth-child(4) {
+        flex-direction: column;
+        width: 750px;
+        margin-left: 4em;
+        
+    }
+    main section:nth-child(2) article header h1
+    {
+        font-size: 3.5em;
+    }
+    main section:nth-child(2) article header p{
+        font-size: 1.9em;
+    }
+    main section:nth-child(2) article p{
+        font-size: 1.4em;
+    }
+    main section:nth-child(2) button, main section:nth-child(4) button{
+        display: none;
+    }
+    main section.left-to-right:nth-child(3){
+        width: 800px;
+        
+    }
+    main section:nth-child(2), main section:nth-child(4){
+        flex-direction: column;
+        
+    }
+   
+    section form label input, section form textarea{
+        font-size: 1.1em;
+        width: 80%;
+        margin-bottom: em;
+    }
+}

@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font:14px/1.5 PT Sans, sans-serif;
+}
+body{
+    width: 1200px;
+    margin: 0 auto;
+}
+header{
+    background-image: url(image/computer-main.jpg);
+    background-size:cover;
+    height: fit-content;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-position-y: -100px;
+    background-color: rgba(128, 128, 128, 0.692);
+    background-blend-mode: multiply;
+    padding-bottom: 2em;
+}
+header nav
+{
+    padding-top: 20px;
+    display:  flex;
+    justify-content: center;
+    gap: 30em;
+}
+header nav a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(10, 10, 10);
+    font-size: 1.5em;
+}
+header h1{
+    text-align: center;
+    margin: 1em 0;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(10, 10, 10);
+    font-size: 3em;
+}
+header p{
+    
+    color: white;
+    text-shadow: 2px 2px 2px rgb(10, 10, 10);
+    font-size: 1.5em;
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+.button-buynow{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 1.7em;
+    border-radius: 10px;
+    background-color: #00D08E;
+    width: fit-content;
+    padding: 0.2em 0.6em;
+    margin: 2em auto;
+
+}
+.button-buynow:hover{
+    background-color: rgba(0, 0, 0, 0);
+    border: 3px solid white;
+}
+.button-seeItInAction{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+    width: fit-content;
+    margin: 0 auto;
+}
+section{
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+}
+
+
+section>img{
+    width: 600px;
+    height: fit-content;
+}
+.list{
+    width: auto;
+    padding: 1em;
+    padding-left: 4em;
+    font-size: 1.4em;
+}
+.list p{
+    margin: 1em 0;
+}
+.list li{
+    display: block;
+    font-size: 0.9em;
+    margin-bottom: 1em;
+}   
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.container div{
+    flex: 1 1 11em;
+    margin-bottom: 2em;
+}
+.container p{
+    color: #00D08E;
+    font-size: 1.6em;
+    font-weight: 600;
+    text-align: center;
+}
+.icons img{
+    display: block;
+    width: 80px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 0.5em;
+}
+.icons h2{
+    padding: 1em 0;
+    text-align: center;
+    font-size: 2em;
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.container2 div{
+    flex: 1 1 20em;
+    text-align: center;
+    
+}
+footer{
+    background-color: #00d08e7c;
+    padding: 3em 5em;
+}
+footer h2{
+    text-align: center;
+   margin-bottom: 2em;
+    font-size: 2em;
+}
+
+footer>p{
+    padding-top: 2em;
+    text-align: center;
+    font-size: 1.2em;
+}
+.container2 h3{
+    font-weight: 900;
+}
+.container2 p{
+    font-size: 1.2em;
+}
+footer p a{
+    text-decoration: none;
+    color: black;
+    
+    font-weight: 700;
+}
+
+svg.nav-icons{
+    fill: white;
+}

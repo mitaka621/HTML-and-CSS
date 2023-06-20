@@ -1,0 +1,285 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html
+{
+    font: 14px/1.5 Arial, sans-seri;
+}
+body
+{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+p
+{
+    margin-bottom: 1.5em;
+}
+h1, h2, h3, h4, h5, h6
+{
+    margin-bottom: 1.5em;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.4em 0;
+    box-shadow: 0px 2px 10px -3px rgba(0,0,0,0.1);
+}
+
+header p
+{
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 6em;
+    margin-bottom: initial;
+}
+header ul
+{
+    display: flex;
+    gap: 10px;
+    margin-right: 5em;
+}
+header li
+{
+  
+    display: block;
+    flex: 0 0 20px;
+    
+}
+header li a
+{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+}
+.section-make-a-diference
+{
+    background-color: #85DCFF;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+}
+.section-make-a-diference img
+{
+    margin-right: -5em;
+}
+.section-make-a-diference div
+{
+    width: 500px;
+}
+
+.button-donate
+{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: 1.2px solid black;
+    padding: 0.8em 3.5em;
+    border-radius: 8px;
+    font-weight: 700;
+    margin-right: 20px;
+}
+.button-join
+{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border: 1.2px solid black;
+    padding: 0.8em 5.3em;
+    border-radius: 8px;
+    font-weight: 700;
+    
+}
+.section-make-a-diference div p
+{
+    width: 500px;
+}
+
+.section-number2 h2,.section-number2 p, .section-number2 h3
+{
+    text-align: center;   
+}
+.section-number2 h2
+{
+    font-weight: 700;
+}
+.section-number2
+{
+    display: flex;
+    flex-direction: column;
+    margin: 3em 0;
+}
+.section-number2>p
+{
+    font-weight: 600;
+    width: 450px;
+    margin: 0 auto;
+    margin-bottom: 3.5em;
+    letter-spacing: 1px;
+}
+.container
+{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.card
+{
+    width: 25%;
+}
+.card svg
+{
+    display: block;
+    margin: 0 auto;
+    fill: #85DCFF;
+    margin-bottom: 1em;
+}
+
+.section-number3
+{
+    padding: 4em 0;
+    background-color: #85DCFF;
+}
+.section-number3 h2
+{
+    text-align: center;
+    
+}
+.section-number3 div
+{
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+    margin-bottom: 4em;
+}
+.section-number3 li
+{
+    display: block;
+}
+
+.section-number3 ul
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  
+    width: 300px;
+    gap: 10px   ;
+    
+}
+
+.section-number3 a
+{
+    
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 15em;
+    padding: 0.6em 2em;
+}
+.section-number4
+{
+    padding: 3em 0;
+}
+.section-number4 h2
+{
+    font-weight: 900;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+.section-number4>p
+{
+    text-align: center;
+    font-weight: 600;
+}
+
+.section-number4 .animals-container
+{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.animals-container>div
+{
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    
+}
+.animals-container img
+{
+    position: relative;
+    height: 100%;
+    width: auto;
+    left: -2em;
+}
+
+.section-number4 h3
+{
+    margin-top: 2em;
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.card2
+{
+    display: block;
+    width: 800px;
+    margin: 0 auto;
+    border: 1px solid lightgray;
+    border-radius: 13px;
+    margin-bottom: 2em;
+}
+.card2 h4
+{
+    background-color: #85DCFF;
+    padding: 1.5em 2em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-weight: 600;
+}
+.card2 p
+{
+    padding: 0 2em;
+    font-weight: 600;
+}
+
+.section-last img
+{
+    float: left;
+    height: 400px;
+    margin-right: 4em;
+}
+
+.section-last div
+{
+    padding: 8em 0;
+}
+
+.section-last input
+{
+    display: block;
+    width: 20em;
+    padding: 1em;
+    margin-bottom: 2em;
+}
+
+footer
+{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1.5em;
+}
+
+footer div svg
+{
+    padding-left: 20px;
+}

@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html
+{
+    font: 14px/1.5  Open Sans, sans-serif;
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+.card
+{
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    justify-content: center;
+    width: fit-content;
+   
+}
+
+.container-img
+{
+    width: 300px;
+   
+}
+
+.container-img img
+{
+    display: block;
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+button
+{
+    display: block;
+}
+.flex-container
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    
+}
