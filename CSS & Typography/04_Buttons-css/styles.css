@@ -1,0 +1,56 @@
+@import url('https://use.fontawesome.com/releases/v6.2.1/css/all.css');
+
+body
+{
+    background-color: rgb(251, 251, 251);
+    font-family:  serif;
+}
+h2{
+    font-family:Helvetica, sans-serif;
+    margin-top: 2em;
+}
+a
+{
+    font-weight: normal;
+    font-family: Arial;
+    font-size: 10.5pt;
+    font-weight: 100;
+    word-spacing: 0;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 0;
+    font-style:normal;
+}
+
+.button
+{
+    border: 2px solid rgb(51, 51, 51);
+    padding: 0.3rem 1rem;
+    border-radius: 2rem;
+    font-weight: normal;
+    background-color: rgb(251, 251, 251);
+    cursor: pointer;
+    outline:none;
+}
+[class="button hover"]:hover
+{
+    color: rgb(0, 102, 0);
+    border-color: rgb(0, 102, 0);
+}
+.hover
+{
+    color: rgb(51, 51, 51);
+}
+.fill
+{
+    background-color: rgb(51, 51, 51);
+    color: rgb(251, 251, 251);
+}
+
+[class="button hover fill"]:hover
+{
+    background-color: rgb(0, 102, 0);
+    border-color: rgb(0, 102, 0);
+}

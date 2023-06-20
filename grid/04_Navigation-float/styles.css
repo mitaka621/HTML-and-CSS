@@ -1,0 +1,142 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html
+{
+    
+    font: 16px/1.5 Helvetica, sans-serif;
+    word-spacing: 2px;
+}
+body
+{
+    background-color: rgb(238, 238, 238);
+    margin: auto;
+    margin-top: 3em;
+    width: 70em;
+}
+p
+{
+    margin-bottom: 1.5em;
+}
+div.page
+{
+    display: grid;
+    grid-template-columns: 80% auto;
+    grid-template-areas: "header header" "main aside" "footer footer";
+    
+    
+}
+header {grid-area: header;}
+main {grid-area: main;}
+aside {grid-area: aside;
+justify-self: end;
+}
+footer {grid-area: footer;}
+img
+{
+    background-color:  rgb(255, 255, 255);
+}
+blockquote
+{
+    font-family: Georgia, serif;
+}
+a
+{
+    color:  rgb(0, 153, 0);
+    text-decoration: none;
+}
+main h1, h2, h3, h4, h5, h6
+{
+    font: 1em/1.2 Georgia, serif;
+    margin-bottom: 1em;
+}
+h2
+{
+    font-size: 2em;
+}
+h3
+{
+    font-size: 1.3em;
+    margin-top: 1em;
+}
+.page header h1
+{
+    font-size: 40px;
+    font-family: Helvetica, sans-serif;
+    text-transform:uppercase;
+    margin-bottom: 0.5em;
+}
+.page>header
+{
+    border-bottom: 3px solid black;
+    flex-basis: 100%;
+    margin-bottom: 4em;
+    display: grid;
+    grid-template-columns: 400px auto;
+    align-items:end
+}
+.page>header p
+{
+    font-size: 4em;
+    text-transform:uppercase;
+    margin: 0;
+}
+.page>header ul
+{
+    display: block;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    justify-content: end;
+}
+.page>header ul li
+{
+    margin-bottom: 1em;
+    text-align: end;
+}
+main
+{
+    flex-basis: 80%;
+}
+aside
+{
+    margin-left: 50px;
+}
+aside ul
+{
+    padding-left: 30px;
+}
+img
+{
+    border:5px solid black ;
+    padding: 0.5em;
+    box-shadow: 0px 0px 20px 7px rgba(0, 0, 0, 0.274);
+}
+img.float-left
+{
+    float: left;
+    margin: 0 1em 1em 0;
+}
+img.float-right
+{
+    float: right;
+    margin: 0 0 1em 1em;
+}
+figure
+{
+    opacity: 0.5;
+    
+}
+blockquote
+{
+    opacity: 0.5;
+    width: 50%;
+    height: auto;
+    float: right;
+    border-left: 2px solid rgba(0, 0, 0, 0.274);
+    padding-left: 0.5em;
+    margin: 0 0 1em 1em;
+}

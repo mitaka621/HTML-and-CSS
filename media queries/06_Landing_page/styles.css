@@ -1,0 +1,253 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    font: 16px/1.5 Helvetica, sans-serif;
+}
+body
+{
+    margin-top: 3em;
+}
+.pattern
+{
+    position: fixed;
+  width: 100vw;
+  height: 100vh;
+ 
+    opacity: 0.1;
+    background: linear-gradient(135deg, #bcbed555 25%, transparent 25%) -11px 0/ 22px 22px, linear-gradient(225deg, #bcbed5 25%, transparent 25%) -11px 0/ 22px 22px, linear-gradient(315deg, #bcbed555 25%, transparent 25%) 0px 0/ 22px 22px, linear-gradient(45deg, #e4e4eb8e 25%, #e5e5f7 25%) 0px 0/ 22px 22px;
+}
+header span
+{
+    display: block;
+
+    font-size: 3em;
+    color: #800080;
+    text-align:center;
+}
+header>p
+{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+header, header>nav>ul
+{
+    display: flex;
+    list-style-type: none;
+    
+}
+
+header li a
+{
+    
+    text-decoration: none;
+    font-size: 1.5em;
+    
+    color: black;
+}
+
+header
+{
+    margin-bottom: 10em;
+    justify-content: space-around;
+
+}
+header ul
+{
+    align-items: center;
+    gap: 2em;
+    height: 100%;
+}
+
+main
+{
+    margin: 0 auto;
+    max-width: 60vw;
+}
+main .card
+{
+    width: 90%;
+    margin-bottom: 7em;
+}
+
+main .card h2
+{
+   font-size: 2.2em;
+   font-family: 'Lucida Sans Unicode', Geneva, Verdana, serif;
+   font-weight: 200;
+}
+
+main .card h2
+{
+   font-size: 2.2em;
+   font-family: 'Lucida Sans Unicode', Geneva, Verdana, serif;
+   font-weight: 200;
+   margin-bottom: 0.5em;
+}
+
+main .card p
+{
+   font-size: 1.2em;
+   margin-bottom: 1em;
+   
+}
+
+main .card button
+{
+   padding: 0.5em;
+   border:3px solid black;
+   border-radius: 6px;
+   font-size: 1em;
+   background-color: white;
+}
+main .card button:hover
+{
+    background-color: lightgray;
+    cursor: pointer;
+}
+main .card svg
+{
+    float: right;
+   width: 220px;
+   height: auto;
+   margin-left: 6em;
+}
+.team h2
+{ 
+    font-size: 3em;
+    text-align: center;
+}
+hr{
+    color: black;
+    width: 10%;
+    margin: auto;
+    height: 0.4em;
+    background-color: black;
+    border-radius: 20px;
+    margin-bottom: 3em;
+}
+.imgcontainer
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+}
+img
+{
+    position: relative;
+    width: 150%;
+    height: auto;
+    right: 1.5em;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8em;
+    justify-content: space-between;
+    margin-bottom: 10em;
+}
+.container>div
+{
+    flex:0 0 15em;
+}
+.container>div h3
+{
+    margin-top: 1em;
+    font-size: 1.3em;
+    text-align: center;
+}
+.container>div p
+{
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+}
+
+.container>div span
+{
+    display: block;
+    text-align: center;
+    font-style: italic;
+}
+
+.signup
+{
+    background-color: purple;
+    padding-top: 2em;
+    padding-bottom: 4em;
+    margin-bottom: 5em;
+}
+.signup h2
+{
+    text-align: center;
+    font-size: 3em;
+    color: floralwhite;
+    margin-bottom: 0.6em;
+    
+}
+.signup>hr
+{
+    margin-bottom: 3em;
+}
+.signup>div
+{
+    
+    width: fit-content;
+   margin: auto;
+   
+}
+.signup input
+{
+   width: 20em;
+   height: 2em;
+   background-color: white;
+   border: 2px solid black;
+}
+.signup button
+{
+   font-size: 1em;
+   height: 1.7em;
+   width: 7em;
+   border-radius: 5px;
+   background-color: white;
+   border: 2px solid black;
+}
+
+footer
+{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    padding-top: 3em;
+    padding-bottom: 5em;
+    background-color: #eee;
+    box-shadow: inset 0px 21px 19px -3px rgba(0,0,0,0.4);
+}
+
+footer ul
+{display:  inline-block;
+    list-style-type: none;
+    margin-right: 2em;
+    
+}
+footer a
+{
+    text-decoration: none;
+    color: black;
+}
+footer div:nth-child(1)
+{
+    flex: 0 0 30em;
+   
+}
+footer div:nth-child(1) h2
+{
+    margin-bottom: 1em;
+}

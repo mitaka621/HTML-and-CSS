@@ -1,0 +1,52 @@
+*
+{
+    box-sizing: border-box;
+}
+div, section
+{
+    display: flex;
+    align-items: center;
+    
+}
+.week{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.container
+{
+    max-width: 65vw;
+    align-items: stretch;
+}
+
+.notes
+{
+    flex-direction: column;
+    align-items: stretch;
+    
+}
+span
+{
+    border: 1px solid black;
+    text-align: center;
+    font-size: 18px;
+}
+
+.week span, .notes span{
+    padding:  2em;
+    padding-bottom: 4em;
+    flex-grow: 1;
+    
+}
+.notes span
+{
+    flex: 1 0 50%
+}
+
+.week span:nth-child(1)
+{
+    flex-basis: 100%;
+}
+.week span:nth-child(7)
+{
+    flex-basis: 100%;
+}

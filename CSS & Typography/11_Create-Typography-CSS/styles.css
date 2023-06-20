@@ -1,0 +1,96 @@
+html
+{
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+body
+{
+    margin: 3em 10em;
+    background-color: whitesmoke;
+}
+h1,h2,h3,h4,h5,h6
+{
+    font-family: Georgia, serif;
+    font-weight: normal;
+}
+hr
+{
+    height: 0.1pt;
+    background-color: rgba(128, 128, 128, 0.281);
+    border-color: rgba(128, 128, 128, 0.281);
+}
+p
+{
+    font-style: normal;
+    line-height: 1.8;
+    letter-spacing: 0.5px;
+    word-spacing: 0.6px;
+    
+    margin-top: 2em;
+}
+section
+{
+    margin-bottom: 3em;
+}
+article>h2
+{
+    font-size: 23pt;
+    margin-top: 30px;
+    margin-bottom: -15px;
+}
+article>p{
+    margin-bottom: 2em;
+}
+ul
+{
+    margin: 5px;
+}
+table
+{
+    width: 75em;
+    
+}
+thead
+{
+    background-color: darkgray;
+    
+}
+table
+{
+    border-collapse: collapse;
+    font-size: 1.1em;
+    margin: auto;
+    width: 67em;
+    height: 20em;
+}
+th{
+    background-color: darkgrey;  
+    border: 1px solid darkgrey;  
+}
+td{
+    
+    border-color: darkgray;
+    border-width: 1.4px;
+    border-style: solid;
+    padding-left: 5px;
+}
+tr.dark
+{
+    background-color: rgba(211, 211, 211, 0.473);
+}
+blockquote
+{
+    border-left: 3.5px solid rgba(128, 128, 128, 0.445);
+    font-style: italic;
+}
+article>blockquote p
+{
+    
+    padding-left: 20px;
+    margin: 30px;
+}
+article>blockquote p.right
+{
+    text-align: right;
+}
